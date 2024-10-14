@@ -60,11 +60,15 @@
   background-image: url('../images/face_unpressed.svg');
 }
 .face:active,
-.face:active.lose {
+.face:active.lose,
+.face:active.win {
   background-image: url('../images/face_pressed.svg');
 }
 .face.lose {
   background-image: url('../images/face_lose.svg');
+}
+.face.win {
+  background-image: url('../images/face_win.svg');
 }
 
 .line {
