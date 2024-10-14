@@ -134,7 +134,7 @@
   height: 28px;
   background-image: url('../images/mine_red.svg');
 }
-.mine_wrong {
+.mine-wrong {
   width: 28px;
   height: 28px;
   background-image: url('../images/mine_wrong.svg');
