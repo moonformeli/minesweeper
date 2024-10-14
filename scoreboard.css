@@ -1,0 +1,78 @@
+#scoreboard #bar {
+  display: flex;
+}
+
+#scoreboard #bar > div {
+  width: 21px;
+  height: 19.25px;
+}
+
+#scoreboard #bar .top-left-corner {
+  background-image: url('./images/corner_up_left_2x.png?v=15');
+}
+
+#scoreboard #bar .top-right-corner {
+  background-image: url('./images/corner_up_right_2x.png?v=15');
+}
+
+#scoreboard #bar .bottom-left-corner {
+  background-image: url('./images/corner_bottom_left_2x.png?v=15');
+}
+
+#scoreboard #bar .bottom-right-corner {
+  background-image: url('./images/corner_bottom_right_2x.png?v=15');
+}
+
+#scoreboard #bar .line {
+  width: 252px;
+  background-image: url('./images/border_hor_2x.png?v=15');
+}
+
+#scoreboard #score > div {
+  width: 21px;
+  height: 56px;
+}
+
+#scoreboard #score {
+  display: flex;
+}
+
+#scoreboard #score .left-bar,
+#scoreboard #score .right-bar {
+  background-image: url('./images/border_vert_2x.png?v=15');
+}
+
+#scoreboard #score .mid-bar {
+  width: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: silver;
+  padding: 5.25px;
+  box-sizing: border-box;
+}
+
+#scoreboard #score .mid-bar .panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5px;
+  background-image: url('./images/nums_background.svg?v=15');
+  width: 71.75px;
+  height: 43.75px;
+}
+
+#scoreboard #score .mid-bar .face {
+  width: 45.5px;
+  height: 45.5px;
+  background-image: url('./images/face_unpressed.svg');
+}
+
+#scoreboard #score .mid-bar .face:active,
+#scoreboard #score .mid-bar .face:active.lose {
+  background-image: url('./images/face_pressed.svg');
+}
+
+#scoreboard #score .mid-bar .face.lose {
+  background-image: url('./images/face_lose.svg');
+}
