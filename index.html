@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="./common.css" />
-    <link rel="stylesheet" href="./assets.css" />
-    <link rel="stylesheet" href="./scoreboard.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/assets.css" />
+    <link rel="stylesheet" href="./css/scoreboard.css" />
+    <link rel="stylesheet" href="./css/gameboard.css" />
     <title>MineSweeper HTML, CSS, JS</title>
   </head>
   <body>
@@ -23,7 +24,7 @@
               <div class="number-1"></div>
               <div class="number-0"></div>
             </div>
-            <button class="face lose"></button>
+            <button class="face"></button>
             <div class="panel">
               <div class="number-0"></div>
               <div class="number-0"></div>
@@ -33,11 +34,121 @@
           <div class="right-bar"></div>
         </article>
         <article id="bar">
-          <div class="bottom-left-corner"></div>
+          <div class="intersection-left"></div>
           <div class="line"></div>
-          <div class="bottom-right-corner"></div>
+          <div class="intersection-right"></div>
         </article>
       </section>
+      <section id="gameboard">
+        <article class="wall"></article>
+        <article id="cellblock">
+          <div class="row">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+          </div>
+          <div class="row">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+          </div>
+          <div class="row">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+          </div>
+          <div class="row">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+          </div>
+          <div class="row">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+          </div>
+          <div class="row">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+          </div>
+          <div class="row">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+          </div>
+          <div class="row">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+          </div>
+          <div class="row">
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+          </div>
+        </article>
+        <article class="wall"></article>
+      </section>
+      <div id="bottom-bar">
+        <div class="bottom-left-corner"></div>
+        <div class="line"></div>
+        <div class="bottom-right-corner"></div>
+      </div>
     </main>
   </body>
 </html>

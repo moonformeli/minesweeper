@@ -1,0 +1,32 @@
+#scoreboard #bar {
+  display: flex;
+  height: 19.25px;
+}
+
+#scoreboard #score .left-bar,
+#scoreboard #score .mid-bar,
+#scoreboard #score .right-bar {
+  width: 21px;
+  height: 56px;
+}
+
+#scoreboard #score {
+  display: flex;
+}
+
+#scoreboard #score .mid-bar {
+  width: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: silver;
+  padding: 5.25px;
+  box-sizing: border-box;
+}
+
+#scoreboard #score .mid-bar .panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5px;
+}
