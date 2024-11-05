@@ -69,7 +69,7 @@
   height: 28px;
   background-image: url('../images/cell-unpressed.svg');
 }
-.cell:active {
+.cell.pressed {
   background-image: url('../images/cell-pressed.svg');
 }
 .flag {
